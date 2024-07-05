@@ -1,0 +1,167 @@
+/*  GOOGLE FONTS
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;(200-700)
+  font-style: normal;
+}
+
+
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-es-deco-<uniquifier> {
+  font-family: "Playwrite ES Deco", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #2b2b2c;
+    font-size: 'lora',sans-serif;
+}
+/* HEADER */
+
+.header {
+    background-color: #202020;
+    color: #e6e6dd;
+    height: 60px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header .logo {
+    font-family: "Monsieur La Doulaise", cursive;
+    float: left;
+    font-size:40px ;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+
+.header ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header ul li{
+    float: left;
+    position: relative;
+    height:60px;
+}
+
+.header ul li a {
+    padding: 5px 2em;
+    font-size: 1.1em;
+    border-radius: 3px;
+    margin: 15px 1em;
+    display: block;
+}
+
+.header ul li:hover{
+    background-color: #121213;
+    color: #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.header .menubar {
+    text-align: right;
+    float: right;
+}
+
+.menubar a:hover{
+    background-color: #2b2b2c!important;
+    color: #e6e6dd!important;
+}
+
+.menubar ul li{
+    margin: 0px;
+    width: 100%;
+    
+}
+.menubar ul li a {
+    background-color: #2b2b2c;
+    color: #e6e6dd
+}
+.header ul .menu:hover {
+    background-color: #202020;
+    height: 55px;
+    border: none;
+}
+.header ul .menu ul {
+    background-color: #202020;
+}
+.header ul .menu ul li:hover {
+    background-color: #202020;
+    border: none;
+}
+.menubar .menuIcon {
+    height: 32px;
+}
+.menubar .menuItem{
+    height: 250px;
+}
+.menubar .menuIcon:hover  {
+    background-color: #202020!important;
+    color: #ffffff!important;
+}
+.menuItem li {
+    margin-bottom: 10px;
+}
+.header ul li ul {
+    position: absolute;
+    right: 0px;
+    width: 180px !important;
+    display: none;
+    z-index: 999999999;
+}
+
+
+.header .menuToggle {
+    display: none;
+}
+.header .logo .shortNameLogo{
+    display: none;
+}
+
