@@ -1,0 +1,72 @@
+.footer {
+    background-color: #202020;
+    color: #e6e6dd;
+    height: 400px;
+    position: relative;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.footer .footerContent {
+    height: 350px;
+    display: flex;
+}
+.footer .footerContent .about .logo {
+    font-family: "Monsieur La Doulaise", cursive;
+    text-align: center;
+}
+.footer .footerContent .footerSection {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+
+.footer .footerBottom {
+    background-color: #252527;
+    color: #f6f6f6;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.textInput {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius:5px ;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'lora',serif;
+    border: 1px solid lightgray;
+}
+.footer .footerContent .textareaInput {
+    height: 140px;
+}
+.footerBtn {
+    margin: 10px;
+    padding: 7px;
+    float: right;
+}
+
+.footerBtn:hover {
+    background-color: #252527;
+    color: #e6e6dd;
+    border-radius: 5px;
+}
